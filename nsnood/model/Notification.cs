@@ -12,6 +12,8 @@ namespace nsnood.model
 
         public string Beschrijving { get; set; }
 
-        public int TreinstelNummer { get; set; }       
+        public int TreinstelNummer { get; set; }
+
+        public DateTime meldMoment { get; set; }
     }
 }

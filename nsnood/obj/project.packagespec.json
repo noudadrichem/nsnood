@@ -1,13 +1,13 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/sebastiaan/projects/cs/nsnood/nsnood/nsnood.csproj",
+    "projectUniqueName": "/Users/boatfolder/repo/nsnood/nsnood/nsnood.csproj",
     "projectName": "nsnood",
-    "projectPath": "/home/sebastiaan/projects/cs/nsnood/nsnood/nsnood.csproj",
-    "outputPath": "/home/sebastiaan/projects/cs/nsnood/nsnood/obj/",
+    "projectPath": "/Users/boatfolder/repo/nsnood/nsnood/nsnood.csproj",
+    "outputPath": "/Users/boatfolder/repo/nsnood/nsnood/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.1"
@@ -37,6 +37,10 @@
           "target": "Package",
           "version": "[2.1.0, )",
           "autoReferenced": true
+        },
+        "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+          "target": "Package",
+          "version": "[2.1.1, )"
         }
       },
       "imports": [

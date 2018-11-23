@@ -22,16 +22,25 @@ namespace nsnood.Controllers
         [HttpPost("komtmeldingaan")]
         public ActionResult<string> KomtMeldingAan([FromBody] Notification notification)
         {
-            //_notificationRepo.Register(notification);
+            var id = _notificationRepo.RegisterNotification();
 
-
-            return notification.NotificationId.ToString();
+            return id.ToString();
         }
 
         [HttpPost("maakmelding")]
-        public void MaakMelding([FromBody] Notification notification)
+        public ActionResult<string> MaakMelding([FromBody] Notification notification)
         {
+            try
+            {
+                _notificationRepo.UpdateNotification(notification);
 
+                return Ok("Noodmelding succesvol afgehandeld");
+
+            }
+            catch(Exception)
+            {
+                return NotFound("Er is iets misgegaan met het maken van de noodmelding");
+            }
         }
     }
 }
