@@ -1,13 +1,13 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/boatfolder/repo/nsnood/nsnood/nsnood.csproj",
+    "projectUniqueName": "/home/sebastiaan/projects/cs/nsnood/nsnood/nsnood.csproj",
     "projectName": "nsnood",
-    "projectPath": "/Users/boatfolder/repo/nsnood/nsnood/nsnood.csproj",
-    "outputPath": "/Users/boatfolder/repo/nsnood/nsnood/obj/",
+    "projectPath": "/home/sebastiaan/projects/cs/nsnood/nsnood/nsnood.csproj",
+    "outputPath": "/home/sebastiaan/projects/cs/nsnood/nsnood/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.1"

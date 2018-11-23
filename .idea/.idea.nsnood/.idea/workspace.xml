@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="ed2bc04b-876c-44d4-b6bd-4895d4da4ffd" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/nsnood/model/Notification.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nsnood/repo/NotificationRepo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.nsnood/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.nsnood/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nsnood/nsnood.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/nsnood/nsnood.csproj" afterDir="false" />
+=======
+    <list default="true" id="6a9999bf-6f56-4124-961b-79b0339ff6bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/nsnood/model/Train.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.nsnood/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.nsnood/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.nsnood/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.nsnood/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nsnood/nsnood.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/nsnood/nsnood.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nsnood/obj/Debug/netcoreapp2.1/nsnood.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/nsnood/obj/Debug/netcoreapp2.1/nsnood.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nsnood/obj/Debug/netcoreapp2.1/nsnood.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/nsnood/obj/Debug/netcoreapp2.1/nsnood.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nsnood/obj/nsnood.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/nsnood/obj/nsnood.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nsnood/obj/nsnood.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/nsnood/obj/nsnood.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nsnood/obj/nsnood.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/nsnood/obj/nsnood.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nsnood/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/nsnood/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nsnood/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/nsnood/obj/project.packagespec.json" afterDir="false" />
+>>>>>>> master
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,20 +29,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
+<<<<<<< HEAD
     <session id="258900931">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.3" value="1" />
+=======
+    <session id="121159674">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.7" value="1" />
+>>>>>>> master
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
           <entry key="cs" value="5" />
+=======
+          <entry key="cs" value="3" />
+>>>>>>> master
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="C#" value="5" />
         </counts>
       </usages-collector>
@@ -39,6 +66,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C#" value="4" />
+=======
+          <entry key="C#" value="3" />
+>>>>>>> master
         </counts>
       </usages-collector>
     </session>
@@ -48,6 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nsnood/Controllers/ValuesController.cs">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="225">
               <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding>
@@ -59,12 +90,26 @@
                 <marker date="1542966883801" expanded="true" signature="690:710" ph="{...}" />
                 <marker date="1542966883801" expanded="true" signature="822:842" ph="{...}" />
                 <marker date="1542966883801" expanded="true" signature="938:958" ph="{...}" />
+=======
+            <state relative-caret-position="180">
+              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+              <folding>
+                <marker date="1542968238745" expanded="false" signature="6:128" ph="..." />
+                <marker date="1542968238745" expanded="true" signature="158:966" ph="{...}" />
+                <marker date="1542968238745" expanded="true" signature="263:964" ph="{...}" />
+                <marker date="1542968238745" expanded="true" signature="368:442" ph="{...}" />
+                <marker date="1542968238745" expanded="true" signature="545:593" ph="{...}" />
+                <marker date="1542968238745" expanded="true" signature="690:710" ph="{...}" />
+                <marker date="1542968238745" expanded="true" signature="822:842" ph="{...}" />
+                <marker date="1542968238745" expanded="true" signature="938:958" ph="{...}" />
+>>>>>>> master
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/nsnood/repo/NotificationRepo.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -81,11 +126,20 @@
               <folding>
                 <marker date="1542968307661" expanded="true" signature="22:81" ph="{...}" />
                 <marker date="1542968307661" expanded="true" signature="58:79" ph="{...}" />
+=======
+        <entry file="file://$PROJECT_DIR$/nsnood/model/Notification.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1542968377380" expanded="true" signature="22:72" ph="{...}" />
+                <marker date="1542968377380" expanded="true" signature="49:70" ph="{...}" />
+>>>>>>> master
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nsnood/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,6 +154,16 @@
                 <marker date="1542966883977" expanded="true" signature="1089:1365" ph="{...}" />
                 <marker date="1542966883977" expanded="true" signature="1136:1213" ph="{...}" />
                 <marker date="1542966883977" expanded="true" signature="1230:1289" ph="{...}" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nsnood/model/Train.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <folding>
+                <marker date="1542968439235" expanded="true" signature="22:70" ph="{...}" />
+                <marker date="1542968439235" expanded="true" signature="47:68" ph="{...}" />
+>>>>>>> master
               </folding>
             </state>
           </provider>
@@ -111,17 +175,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/nsnood/model/Notification.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/nsnood/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/nsnood/repo/NotificationRepo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/nsnood/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/nsnood/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/nsnood/model/Notification.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/nsnood/model/Train.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> master
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/nsnood/model/melding.cs" />
         <option value="$PROJECT_DIR$/nsnood/repo/MeldingRepo.cs" />
         <option value="$PROJECT_DIR$/nsnood/model/Notification.cs" />
+=======
+        <option value="$PROJECT_DIR$/nsnood/model/Train.cs" />
+>>>>>>> master
       </list>
     </option>
   </component>
@@ -131,17 +205,28 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds">
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+>>>>>>> master
     <option name="y" value="23" />
     <option name="width" value="960" />
     <option name="height" value="1177" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+>>>>>>> master
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="FileSystemExplorer" />
+>>>>>>> master
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -177,7 +262,10 @@
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+<<<<<<< HEAD
       <pane id="FileSystemExplorer" />
+=======
+>>>>>>> master
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,17 +315,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="ed2bc04b-876c-44d4-b6bd-4895d4da4ffd" name="Default Changelist" comment="" />
       <created>1542966875140</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542966875140</updated>
       <workItem from="1542966877556" duration="1374000" />
+=======
+      <changelist id="6a9999bf-6f56-4124-961b-79b0339ff6bb" name="Default Changelist" comment="" />
+      <created>1542968271220</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542968271220</updated>
+      <workItem from="1542968276371" duration="542000" />
+>>>>>>> master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="1374000" />
+=======
+    <option name="totallyTimeSpent" value="542000" />
+>>>>>>> master
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -249,15 +350,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="0" y="23" width="960" height="1177" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38017428" />
+=======
+    <frame x="-4" y="0" width="1608" height="868" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24967825" />
+>>>>>>> master
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" />
       <window_info anchor="bottom" id="REST Client" />
@@ -267,6 +377,16 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299539" />
+=======
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="REST Client" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.19591837" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+>>>>>>> master
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -286,6 +406,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -310,10 +431,27 @@
             <marker date="1542966883977" expanded="true" signature="1089:1365" ph="{...}" />
             <marker date="1542966883977" expanded="true" signature="1136:1213" ph="{...}" />
             <marker date="1542966883977" expanded="true" signature="1230:1289" ph="{...}" />
+=======
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/nsnood/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding>
+            <marker date="1542968238745" expanded="false" signature="6:128" ph="..." />
+            <marker date="1542968238745" expanded="true" signature="158:966" ph="{...}" />
+            <marker date="1542968238745" expanded="true" signature="263:964" ph="{...}" />
+            <marker date="1542968238745" expanded="true" signature="368:442" ph="{...}" />
+            <marker date="1542968238745" expanded="true" signature="545:593" ph="{...}" />
+            <marker date="1542968238745" expanded="true" signature="690:710" ph="{...}" />
+            <marker date="1542968238745" expanded="true" signature="822:842" ph="{...}" />
+            <marker date="1542968238745" expanded="true" signature="938:958" ph="{...}" />
+>>>>>>> master
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/nsnood/Controllers/ValuesController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -327,10 +465,19 @@
             <marker date="1542966883801" expanded="true" signature="690:710" ph="{...}" />
             <marker date="1542966883801" expanded="true" signature="822:842" ph="{...}" />
             <marker date="1542966883801" expanded="true" signature="938:958" ph="{...}" />
+=======
+    <entry file="file://$PROJECT_DIR$/nsnood/model/Notification.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1542968377380" expanded="true" signature="22:72" ph="{...}" />
+            <marker date="1542968377380" expanded="true" signature="49:70" ph="{...}" />
+>>>>>>> master
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/nsnood/repo/NotificationRepo.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -345,6 +492,15 @@
           <folding>
             <marker date="1542968307661" expanded="true" signature="22:81" ph="{...}" />
             <marker date="1542968307661" expanded="true" signature="58:79" ph="{...}" />
+=======
+    <entry file="file://$PROJECT_DIR$/nsnood/model/Train.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding>
+            <marker date="1542968439235" expanded="true" signature="22:70" ph="{...}" />
+            <marker date="1542968439235" expanded="true" signature="47:68" ph="{...}" />
+>>>>>>> master
           </folding>
         </state>
       </provider>
