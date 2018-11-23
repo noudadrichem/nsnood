@@ -9,7 +9,8 @@ namespace nsnood.repo
 {
     public class NotificationRepo
     {
-        public Dictionary<Guid, Notification> notifications { get; set; }
+
+        public readonly Dictionary<Guid, Notification> notifications = new Dictionary<Guid, Notification>();
 
         public IEnumerable<Notification> All()
         {
@@ -30,7 +31,7 @@ namespace nsnood.repo
             return id;
         }
 
-        public void AddNotification(Notification noti)
+        public void UpdateNotification(Notification noti)
         {
             notifications[noti.NotificationId] = noti;
         }

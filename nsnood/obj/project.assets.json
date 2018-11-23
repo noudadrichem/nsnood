@@ -12258,12 +12258,18 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "/home/sebastiaan/.nuget/packages/": {},
     "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+=======
+    "C:\\Users\\TimO\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+>>>>>>> master
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "/home/sebastiaan/projects/cs/nsnood/nsnood/nsnood.csproj",
       "projectName": "nsnood",
       "projectPath": "/home/sebastiaan/projects/cs/nsnood/nsnood/nsnood.csproj",
@@ -12275,12 +12281,29 @@
       ],
       "configFilePaths": [
         "/home/sebastiaan/.config/NuGet/NuGet.Config"
+=======
+      "projectUniqueName": "C:\\Users\\TimO\\Documents\\Hackathon\\nsnood\\nsnood\\nsnood.csproj",
+      "projectName": "nsnood",
+      "projectPath": "C:\\Users\\TimO\\Documents\\Hackathon\\nsnood\\nsnood\\nsnood.csproj",
+      "packagesPath": "C:\\Users\\TimO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TimO\\Documents\\Hackathon\\nsnood\\nsnood\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\TimO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> master
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://ns-topaas.pkgs.visualstudio.com/_packaging/ORP-Release/nuget/v3/index.json": {},
+        "https://ns-topaas.pkgs.visualstudio.com/_packaging/TimTim-Release/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
@@ -12303,7 +12326,6 @@
             "autoReferenced": true
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

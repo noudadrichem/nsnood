@@ -15,13 +15,13 @@ namespace nsnood.Controllers
     [ApiController]
     public class NotificationController : ControllerBase
     {
+        
         private readonly NotificationRepo _notificationRepo;
-
         public NotificationController(NotificationRepo notificationRepo)
         {
-            this._notificationRepo = notificationRepo;
-
+            _notificationRepo = notificationRepo;
         }
+
         [Route("notificaties")]
         public IEnumerable<Notification> Index()
         {
@@ -84,22 +84,30 @@ namespace nsnood.Controllers
         }
         
         
-        [HttpPost("komtmeldingaan")]
-        public ActionResult<string> KomtMeldingAan([FromBody] MeldingSoort meldingSoort)
-        {
-            var notification = new Notification
-            {
-                NotificationId = Guid.NewGuid(),
-                Soort = meldingSoort
-            };
 
-            return notification.NotificationId.ToString();
+
+
+        [HttpPost("komtmeldingaan")]
+        public ActionResult<string> KomtMeldingAan([FromBody] Notification notification)
+        {
+            var id = _notificationRepo.RegisterNotification();
+
+            return id.ToString();
         }
 
         [HttpPost("maakmelding")]
-        public void MaakMelding([FromBody] Notification notification)
+        public ActionResult<string> MaakMelding([FromBody] Notification notification)
         {
+            try
+            {
+                _notificationRepo.UpdateNotification(notification);
 
+                return Ok("Noodmelding succesvol afgehandeld");
+            }
+            catch(Exception)
+            {
+                return NotFound("Er is iets misgegaan met het maken van de noodmelding");
+            }
         }
         
         
