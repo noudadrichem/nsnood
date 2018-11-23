@@ -7,7 +7,6 @@
       <e p="nsnood" t="IncludeRecursive">
         <e p="Controllers" t="Include">
           <e p="NotificationController.cs" t="Include" />
-          <e p="ValuesController.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">

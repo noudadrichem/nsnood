@@ -707,4 +707,6 @@ ASALocalRun/
 # Local History for Visual Studio
 .localhistory/
 
+**/obj/**
+
 # End of https://www.gitignore.io/api/vim,node,rider,linux,macos,windows,notepadpp,aspnetcore,visualstudio,visualstudiocode

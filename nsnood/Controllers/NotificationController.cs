@@ -28,14 +28,23 @@ namespace nsnood.Controllers
             return this._notificationRepo.All();
         }
 
-        [Route("notificaties/{id}")]
+        [Route("notificaties/id/{id}", Order = int.MaxValue)]
         public ActionResult GetNotification(string id)
         {
             if (Guid.TryParse(id, out Guid guid))
             {
                 try
                 {
-                    return new JsonResult(_notificationRepo.GetNotification(guid));
+                    var notification = _notificationRepo.GetNotification(guid);
+                    if (notification != null)
+                    {
+                        
+                        return new JsonResult(notification);
+                    }
+                    else
+                    {
+                        return NotFound();
+                    }
                 }
                 catch (Exception e)
                 {
@@ -55,7 +64,17 @@ namespace nsnood.Controllers
 
             try
             {
-                return new JsonResult(_notificationRepo.GetNotificationFromTrain(id));
+                var notification = _notificationRepo.GetNotificationFromTrain(id);
+                
+                if (notification != null && notification.Any())
+                {
+                    return new JsonResult(notification);
+                }
+                else
+                {
+                    return NotFound();
+                }
+                
             }
             catch (Exception)
             {
