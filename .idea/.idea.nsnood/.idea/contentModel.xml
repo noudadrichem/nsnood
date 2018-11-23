@@ -17,6 +17,7 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="model" t="Include">
+          <e p="Material.cs" t="Include" />
           <e p="Notification.cs" t="Include" />
           <e p="Train.cs" t="Include" />
         </e>
@@ -30,6 +31,7 @@
         </e>
         <e p="repo" t="Include">
           <e p="NotificationRepo.cs" t="Include" />
+          <e p="TrainRepo.cs" t="Include" />
         </e>
         <e p="wwwroot" t="Include" />
       </e>
