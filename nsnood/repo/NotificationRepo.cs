@@ -8,7 +8,7 @@ namespace nsnood.repo
     public class NotificationRepo
     {
 
-        public Dictionary<Guid, Notification> notifications { get; set; }
+        public readonly Dictionary<Guid, Notification> notifications = new Dictionary<Guid, Notification>();
 
         public Guid RegisterNotification()
         {
