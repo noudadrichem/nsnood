@@ -18,7 +18,7 @@ namespace nsnood.Controllers
         private readonly NotificationRepo _notificationRepo;
         public IEnumerable<Notification> Index()
         {
-            return _notificationRepo.GetAll();
+            return _notificationRepo.();
         }
 
         [Route("notificaties/{id}")]
@@ -26,12 +26,11 @@ namespace nsnood.Controllers
         {
             if (Guid.TryParse(id, out Guid guid))
             {
-                // TODO Check if exists
-                if (true)
+                try
                 {
-                    
+                    return new JsonResult(_notificationRepo.GetNotification(guid));
                 }
-                else
+                catch (Exception e)
                 {
                     return NotFound();
                 }
@@ -47,6 +46,14 @@ namespace nsnood.Controllers
                 return NotFound();
             }
 
+            try
+            {
+                return new JsonResult(_notificationRepo.GetNotificationFromTrain(id));
+            }
+            catch (Exception)
+            {
+                return NotFound();
+            }
             return BadRequest();
         }
 
@@ -58,9 +65,13 @@ namespace nsnood.Controllers
                 return NotFound();
             }
 
-            if (true)
+            try
             {
-                
+                return new JsonResult(this._notificationRepo.GetNotificationFromTrain(id));
+            }
+            catch (Exception e)
+            {
+                return NotFound();
             }
             return BadRequest();
         }
