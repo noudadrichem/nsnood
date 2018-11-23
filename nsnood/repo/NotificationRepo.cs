@@ -42,7 +42,10 @@ namespace nsnood.repo
             {
                 var noti = pair.Value;
                 
-                if (noti.TreinstelNummer == trainNumber)
+                DateTime today = DateTime.Now;
+                DateTime agoTime = today.AddHours(-3); 
+                
+                if (noti.TreinstelNummer == trainNumber && (noti.meldMoment.Ticks > today.Ticks && noti.meldMoment.Ticks < agoTime.Ticks))
                 {
                     notis.Add(noti);
                 }
