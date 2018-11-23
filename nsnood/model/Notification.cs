@@ -1,6 +1,6 @@
 namespace nsnood.model
 {
-    public class melding
+    public class Notification
     {
         
     }

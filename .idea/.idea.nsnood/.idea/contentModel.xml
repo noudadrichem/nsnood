@@ -13,6 +13,9 @@
         <e p="Controllers" t="Include">
           <e p="ValuesController.cs" t="Include" />
         </e>
+        <e p="model" t="Include">
+          <e p="Notification.cs" t="Include" />
+        </e>
         <e p="nsnood.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -24,6 +27,9 @@
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="repo" t="Include">
+          <e p="NotificationRepo.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="wwwroot" t="Include" />

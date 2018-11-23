@@ -1,6 +1,6 @@
 namespace nsnood.repo
 {
-    public class MeldingRepo
+    public class NotificationRepo
     {
         
     }
