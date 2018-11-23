@@ -35,7 +35,6 @@ namespace nsnood.Controllers
                 _notificationRepo.UpdateNotification(notification);
 
                 return Ok("Noodmelding succesvol afgehandeld");
-
             }
             catch(Exception)
             {
