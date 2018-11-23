@@ -1,5 +1,7 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Microsoft.CodeAnalysis;
 using nsnood.model;
 
@@ -8,6 +10,11 @@ namespace nsnood.repo
     public class NotificationRepo
     {
         public Dictionary<Guid, Notification> notifications { get; set; }
+
+        public IEnumerable<Notification> All()
+        {
+            return notifications.Values;
+        }
 
         public Guid RegisterNotification()
         {

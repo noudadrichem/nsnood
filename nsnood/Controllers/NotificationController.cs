@@ -16,9 +16,16 @@ namespace nsnood.Controllers
     public class NotificationController : ControllerBase
     {
         private readonly NotificationRepo _notificationRepo;
+
+        public NotificationController(NotificationRepo notificationRepo)
+        {
+            this._notificationRepo = notificationRepo;
+
+        }
+        [Route("notificaties")]
         public IEnumerable<Notification> Index()
         {
-            return _notificationRepo.();
+            return this._notificationRepo.All();
         }
 
         [Route("notificaties/{id}")]
