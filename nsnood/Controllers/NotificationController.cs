@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using nsnood.model;
+using nsnood.repo;
 
 namespace nsnood.Controllers
 {
@@ -12,14 +13,17 @@ namespace nsnood.Controllers
     [ApiController]
     public class NotificationController : ControllerBase
     {
-        [HttpPost("komtmeldingaan")]
-        public ActionResult<string> KomtMeldingAan([FromBody] MeldingSoort meldingSoort)
+        private NotificationRepo _notificationRepo;
+        public NotificationController(NotificationRepo notificationRepo)
         {
-            var notification = new Notification
-            {
-                NotificationId = Guid.NewGuid(),
-                Soort = meldingSoort
-            };
+            _notificationRepo = notificationRepo;
+        }
+
+        [HttpPost("komtmeldingaan")]
+        public ActionResult<string> KomtMeldingAan([FromBody] Notification notification)
+        {
+            //_notificationRepo.Register(notification);
+
 
             return notification.NotificationId.ToString();
         }
